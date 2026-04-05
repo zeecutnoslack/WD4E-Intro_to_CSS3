@@ -64,10 +64,10 @@ footer {
 }
 
 /* ------ 7. List Items (Step 8) ------ */
-li {
+/* li {
   display: inline-block;
   width: 120px;
-}
+} */
 
 /* ------ 8. H1 (Step 9) ------ */
 h1 {
@@ -122,4 +122,30 @@ img {
 
 footer a {
   color: #ffd700;
+}
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+nav img {
+  width: 10%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: top;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
