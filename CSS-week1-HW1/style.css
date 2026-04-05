@@ -118,5 +118,6 @@ img {
   height: auto;
   display: block;
   border-radius: 4px;
+footer a {
+  color: #ffd700;
 }
-footer a { color: #ffff00; }
